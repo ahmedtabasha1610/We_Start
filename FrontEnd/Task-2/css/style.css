@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@0,300;0,400;0,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;600;700&family=Playfair:ital,wght@0,300;0,400;0,600;1,700&display=swap');
+
+html {
+    direction: rtl;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(230, 230, 230, 0.219);
+    padding: 5px 50px;
+    box-shadow: 10px solid #222;
+    box-shadow: 2px 2px 2px #aaaaaa46;
+}
+
+header nav {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo .en{
+    margin-top: -20px;
+}
+header nav .lo{
+    color: #705a30c0;
+}
+header nav .logo .en-1{
+    color: #029916c9;
+}
+header nav .logo a {
+    font-family: 'Playfair', serif;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    color: #222;
+    font-size: 25px;
+    
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li a {
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    color: #222;
+}
+
+header nav ul li .btn {
+    background-color: #029916c9;
+    color: antiquewhite;
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul li .btn:hover{
+    background-color: #219c32;
+}
